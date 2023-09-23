@@ -15,9 +15,6 @@ knn.fit(X_train, y_train)
 
 y_pred = knn.predict(X_test)
 
-print(y_test)
-print(y_pred)
-
 from sklearn.metrics import accuracy_score
 accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy:", accuracy)
